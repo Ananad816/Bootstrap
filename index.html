@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h1>This is my new website</h1>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RID</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/course.html" target="_self">Course</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              City Name
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Patna
+
+                
+              </a>
+                
+              
+              
+              </li>
+              <li><a class="dropdown-item" href="#">Sasaram</a></li>
+              <li><a class="dropdown-item" href="#">Motihari</a></li>
+              <li><a class="dropdown-item" href="#">Gaya</a></li>
+              <li><a class="dropdown-item" href="#">Ara</a></li>
+              <li><a class="dropdown-item" href="#">Bettiah</a> </li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <h1>Carousel</h1>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="minage">
+        <img src="n1.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>I Love Nature</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" id="minage">
+        <img src="n2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" id="minage">
+        <img src="n3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <hr>
+  <h1>Gallery</h1>
+  <div class="gallery">
+
+    <div class="card" style="width: 18rem;">
+     <img src="n4.jpg" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">Nature-1</h5>
+       <p class="card-text">we should love nature.</p>
+       <a href="#" class="btn btn-primary">Go somewhere</a>
+     </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="n1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nature-2</h5>
+        <p class="card-text">we should love nature.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="n2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nature-3</h5>
+        <p class="card-text">we should love nature.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="nature.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nature-4</h5>
+        <p class="card-text">we should love nature.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <h1>Accordian</h1>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Hindi
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong> write here in Hindi ......This is the first item's accordion body.</strong> It is shown by default,
+          until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+          control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+          this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
+          go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          English
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong> Write here English....This is the second item's accordion body.</strong> It is hidden by default,
+          until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+          control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+          this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
+          go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Tamil
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1>Button</h1>
+  <div class="Button-1">
+    <button type="button" class="btn btn-primary">Submit</button>
+    <button type="button" class="btn btn-secondary">Next</button>
+    <button type="button" class="btn btn-success">Login</button>
+    <button type="button" class="btn btn-danger">Singup</button>
+    <button type="button" class="btn btn-warning">Registration</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+  </div>
+  <h1>Button Group</h1>
+
+  <div class="group_buttom">
+  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-danger">Left</button>
+    <button type="button" class="btn btn-warning">Middle</button>
+    <button type="button" class="btn btn-success">Right</button>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="Basic outlined example">
+    <button type="button" class="btn btn-outline-primary">Left</button>
+    <button type="button" class="btn btn-outline-primary">Middle</button>
+    <button type="button" class="btn btn-outline-primary">Right</button>
+  </div>
+
+</div>
+
+<h1>Alert!!!!</h1>
+<div class="alert alert-primary" role="alert">
+  Pushakr padaee kro acche se!
+</div>
+
+<h1>List concept in Bootstrap</h1>
+
+<div class="list-group">
+  <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+    Pani Puri
+  </button>
+  <button type="button" class="list-group-item list-group-item-action">Pizza</button>
+  <button type="button" class="list-group-item list-group-item-action">Write Content Here..</button>
+  <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+  <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
+</div>
+<hr>
+
+<button type="button" class="btn-close" aria-label="Close"></button>
+
+
+<hr>
+<br>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Check Result
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Papu pass ho gya</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        sadi ki taiyari kro..
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Download pdf</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h1>message show buttom</h1>
+
+<button type="button" class="btn btn-primary position-relative">
+  pagali ka Message
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    200+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+
+<!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+  ...
+</div>
+
+
+<hr>
+<div class="anand_patna" style="position: absolute; left: 0; top: 0;" id="DD3">
+  <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel">Bihar me bahr pura bihar bihar se bahar hai</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
